@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/atma_light"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Red Lifeline"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:autoSizeMaxTextSize="50dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="310dp"
+        android:layout_height="94dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="top|center"
+        android:text="A Social Media Platform for BLOOD DONATION"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button.Toggle"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="NEXT"
+        android:textColor="#a20000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="149dp"
+        android:layout_height="307dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="fitEnd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/IMG_2219"
+        tools:layout_editor_absoluteY="-91dp" />
+
+</android.support.constraint.ConstraintLayout>
