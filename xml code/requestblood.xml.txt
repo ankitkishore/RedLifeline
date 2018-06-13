@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+   android:weightSum="1">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:text="  Request blood"
+    android:textSize="25dp"
+    android:background="#FF0000"/>
+    <TextView
+        android:id="@+id/Luname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/Ledituname"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.11">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/Lpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <EditText
+        android:id="@+id/Leditpw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:id="@+id/Lpass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/Leditpw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:id="@+id/Lpass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Required type"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+
+        android:textSize="20dp"
+        android:id="@+id/radioButton2"
+        android:layout_gravity="right"
+        android:checked="false"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.20" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="platelets"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+
+        android:id="@+id/radioButton"
+        android:checked="false"
+        android:layout_marginRight="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="46dp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/Lpass3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="5dp"
+        android:entries="@array/blood_arrays"
+        android:prompt="@string/blood_prompt"
+        />
+
+
+
+    <TextView
+        android:id="@+id/Lpass4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood units required"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/Leditpw4"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:inputType="textPassword"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.11"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/Lpass5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby hospital"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/Leditpw5"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:inputType="textPassword"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.11"
+        android:layout_marginTop="5dp"/>
+
+    <WebView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_marginLeft="300dp"
+        android:layout_weight="0.19" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="5dp"
+        android:text="submit" />
+
+
+</LinearLayout>
+
+
+
+
+
