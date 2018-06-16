@@ -3,7 +3,7 @@ package com.yef.redlifeline;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity3 extends AppCompatActivity {
+public class details extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
