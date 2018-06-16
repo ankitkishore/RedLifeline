@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="211dp"
+        android:layout_height="46dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="100% FREE"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="145dp"
+        android:background="@drawable/img2"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="78dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="We never take money and we never make money for blood."
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:text="NEXT"
+        android:textColor="#10b3d4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="436dp" />
+</android.support.constraint.ConstraintLayout>

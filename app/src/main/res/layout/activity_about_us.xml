@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitebkg"
+    tools:context=".about_us">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="383dp"
+        android:layout_height="83dp"
+        android:text="About us"
+        tools:layout_editor_absoluteX="2dp"
+        android:background="@drawable/red_diamond_detail"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We never take money and we never make money for blood."
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100% FREE: "
+        android:textAllCaps="false"
+        android:textColor="#a20000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calling hundreds of Blood Donors is no more required using our platform. Find nearby Hospitals and Blood Banks"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="317dp"
+        android:layout_height="44dp"
+        android:text="Find Blood Donor:"
+        android:textColor="#a20000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Our Life Saving Squad:"
+        android:textColor="#a20000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join our squad by becoming an Ambassador and save lives"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+</android.support.constraint.ConstraintLayout>
