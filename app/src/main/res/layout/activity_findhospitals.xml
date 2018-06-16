@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/preview"
     tools:context=".Main3Activity">
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="126dp"
         android:layout_height="126dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
         app:srcCompat="@drawable/img3"
         tools:layout_editor_absoluteX="129dp"
         tools:layout_editor_absoluteY="116dp" />
@@ -19,6 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
         android:text="Find Blood Donor"
         android:textColor="#ffffff"
         android:textSize="35dp"
@@ -30,6 +37,9 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="128dp"
         android:gravity="center_vertical|center_horizontal"
         android:text="Calling hundreds of Blood Donors is no more required using our platform."
         android:textColor="#ffffff"
@@ -41,6 +51,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignParentStart="true"
         android:gravity="center_vertical|center_horizontal"
         android:text="Find nearby Hospitals and Blood Banks"
         android:textColor="#ffffff"
@@ -52,6 +64,9 @@
         android:id="@+id/button3"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
         android:background="@drawable/roundbutton"
         android:clickable="true"
         android:text="NEXT"
@@ -61,4 +76,4 @@
         tools:layout_editor_absoluteX="112dp"
         tools:layout_editor_absoluteY="464dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

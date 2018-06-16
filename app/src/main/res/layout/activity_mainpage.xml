@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back"
     tools:context=".MainActivity">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="283dp"
         android:layout_height="62dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
         android:gravity="center_vertical|center_horizontal"
         android:text="Red Lifeline"
         android:textColor="#ffffff"
         android:textSize="35dp"
         android:textStyle="bold"
-
         tools:layout_editor_absoluteX="51dp"
         tools:layout_editor_absoluteY="216dp" />
 
@@ -23,6 +27,9 @@
         android:id="@+id/textView2"
         android:layout_width="310dp"
         android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
         android:gravity="top|center"
         android:text="A Social Media Platform for BLOOD DONATION"
         android:textColor="#ffffff"
@@ -35,8 +42,11 @@
         style="@android:style/Widget.Button.Toggle"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:text="NEXT"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
         android:background="@drawable/roundbutton"
+        android:text="NEXT"
         android:textColor="#a20000"
         android:textSize="20dp"
         android:textStyle="bold"
@@ -47,6 +57,9 @@
         android:id="@+id/imageView8"
         android:layout_width="151dp"
         android:layout_height="149dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
         android:adjustViewBounds="true"
         android:background="@drawable/blooddonation"
         android:cropToPadding="true"
@@ -56,4 +69,4 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="44dp" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
