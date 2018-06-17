@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".history"
-    android:background="@drawable/bck2">
+    android:orientation="vertical"
+    android:background="#d84146">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp"
-        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         android:text="Donation History"
         android:textColor="#231d1d"
         android:textSize="30dp"
@@ -20,27 +19,25 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"
-        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
         android:text="Select the month whose history you want to see"
         android:textColor="#0e0e0e"
         android:textStyle="bold"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Month "
+        android:text="Month"
+        android:layout_marginTop="10dp"
         android:textColor="#000000"
         android:textSize="20dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginStart="70dp"/>
     <Spinner
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="155dp"
-        android:layout_marginLeft="170dp">
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
 
     </Spinner>
 
-</RelativeLayout>
+</LinearLayout>
