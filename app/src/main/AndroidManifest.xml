@@ -9,30 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoAppTheme">
-        <activity android:name=".credentials"
-            android:theme="@style/AppTheme"
-            android:label="Registration">
+        <activity
+            android:name=".credentials"
+            android:label="Registration"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".otp"
-            android:theme="@style/AppTheme"
-            android:label="Registration"/>
-        <activity android:name=".details"
-            android:theme="@style/AppTheme"
-            android:label="Registration"/>
-        <activity android:name=".address"/>
-        <activity android:name=".MainActivity"/>
+        <activity
+            android:name=".otp"
+            android:label="Registration"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".details"
+            android:label="Registration"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".address" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Main2Activity1" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".Main4Activity" />
         <activity android:name=".login" />
         <activity android:name=".ambassador" />
         <activity android:name=".settings" />
-        <activity android:name=".about_us"/>
+        <activity android:name=".about_us" />
+        <activity android:name=".request_blood"></activity>
     </application>
 
 </manifest>
