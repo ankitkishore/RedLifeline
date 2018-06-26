@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragament"
+    android:background="#dc0c0c"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <View
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:visibility="visible"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#0b0b0b"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Date"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/options"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="245dp"
+        android:drawableLeft="@drawable/directions"/>
+    <View
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:layout_marginTop="420dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="drop in"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="15dp"
+        android:drawableLeft="@drawable/drop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="raise"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="147dp"
+        android:drawableLeft="@drawable/raise"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="260dp"
+        android:drawableLeft="@drawable/share"/>
+
+
+
+</>
